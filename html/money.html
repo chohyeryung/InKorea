@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="../css/money.css">
+        <script language="javascript" src="../js/money.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Song+Myung&display=swap" rel="stylesheet">
+        <title>MONEY</title>
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                <div class="first">
+                    <a href="money.html"><h1>부자가 되고 싶어 ?</h1></a>
+                    <form name="how">
+                        <input type="button" class="start" value="Start" onclick="start()" id="press">
+                        <table align="center" id="tag">
+                            <tr>
+                                <td align="center" class="how1">부자가 되고 싶어 ? </td>
+                            </tr>
+                            <tr>
+                                <td align="center" class="how2"  font-family="BlackHanSans-Regular"> 
+                                    대한민국 화폐 사진이 랜덤으로 나옵니다. <br>
+                                    여러분은 동전 뒷면의 그림을 맞추거나 지폐에 나온 인물을 맞추시면 됩니다.<br>
+                                    여러분은 과연 몇개나 맞출 수 있을까요 !!? <br>
+                                    준비가 되셨다면 Start 버튼을 누르고 시작하세요 ! <br>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="second" style="display:none" id="second">
+                    <form name="coinform" id="coinform">
+                        <table class="back">
+                            <tr class="a">
+                                <td><img name="coin" src="../image/dollar.png" class="a"></td>
+                            </tr>
+                            <tr>
+                               <td><input class="selecbutton" type="button" name="coinbutton" value="선택 시작" onclick="selecCoin()"></td>
+                            </tr>
+                            <br><br>
+                            <tr>
+                                <td><input type="text" name="cointext" id="cointext" value="">
+                                    <input type="button" class="inputbutton" name="inputbutton" value="입력" onclick="won()">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </center>
+            <a href="quiz.html"><button class="gomoney">home</button></a>
+        </div>
+    </body>
+</html>

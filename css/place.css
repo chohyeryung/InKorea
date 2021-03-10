@@ -1,0 +1,331 @@
+html, body, .container{
+    width:100%;
+    margin:0;
+}
+@font-face { 
+    font-family: 'EBSHunminjeongeumSBA'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+.t{
+    text-align:center;
+    margin-top:20px;
+}
+.title1{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgba(235, 12, 12, 0.911);
+    font-weight: 800;
+    display:inline-block;
+}
+.title2{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgb(6, 42, 202);
+    font-weight: 800;
+    display:inline-block;
+}
+.title1>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgba(235, 12, 12, 0.911);
+    display:inline-block;
+    font-weight: 800;
+    text-decoration: none;
+}
+.title2>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgb(6, 42, 202);
+    display:inline-block;
+    font-weight: 800;
+    text-decoration: none;
+}
+.second{
+    width:85%;
+    margin-left:4%;
+    margin-top:20px;
+}
+.fl, .sl , .tl{
+    display:flex;
+}
+.sl{
+    height:330px;
+}
+.tl{
+    margin-bottom:120px;
+}
+.a:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.b:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.c:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.d:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.e:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.f:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.g:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.h:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.i:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.j:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.k:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.l:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+img{
+    width:350px;
+    height:250px;
+    border-radius: 5px;
+}
+img:hover{
+    background-color:grey;
+}
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l{
+    width:350px;
+    height:250px;
+    margin-right:120px;
+    margin-left:110px;
+    margin-top:80px;
+    position: relative;
+}
+.a:hover .overlay1{
+    height:80px;
+}
+.overlay1{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text1{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:40%;
+}
+.text11{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    left:25%;
+    top:24%;
+}
+.b:hover .overlay2{
+    height:80px;
+}
+.overlay2{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text2{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:36%;
+}
+.text22{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:24%;
+    left:25%;
+}
+.c:hover .overlay3{
+    height:80px;
+}
+.overlay3{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text3{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:30%;
+}
+.text33{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:24%;
+    left:25%;
+}
+.d:hover .overlay4{
+    height:80px;
+}
+.overlay4{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text4{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:35%;
+}
+.text44{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:24%;
+    left:25%;
+}
+.e:hover .overlay5{
+    height:80px;
+}
+.overlay5{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text5{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:40%;
+}
+.text55{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:24%;
+    left:25%;
+}
+.f:hover .overlay6{
+    height:80px;
+}
+.overlay6{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text6{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:130px;
+}
+.text66{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:24%;
+    left:25%;
+}
+.g:hover .overlay7{
+    height:80px;
+}
+.overlay7{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text7{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:130px;
+}
+.text77{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:20px;
+    left:25%;
+}
+.h:hover .overlay8{
+    height:80px;
+}
+.overlay8{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text8{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:43%;
+}
+.text88{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:20px;
+    left:25%;
+}
+.i:hover .overlay9{
+    height:80px;
+}
+.overlay9{
+    opacity: 0.8;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+    width:350px;
+    height:0px;
+    transition: .5s ease;
+}
+.text9{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left:158px;
+}
+.text99{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:20px;
+    left:25%;
+}
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8, .overlay9{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+}

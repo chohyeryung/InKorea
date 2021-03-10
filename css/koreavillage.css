@@ -1,0 +1,84 @@
+@font-face { 
+    font-family: 'BBTreeGL'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGL.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.logo{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-top:10px;
+}
+h1{
+    display:inline-block;
+}
+.a{
+    float:left;
+    width:400px;
+    height:250px;
+}
+.history, .spring, .summer, .fall{
+    font-size:22px;
+    font-weight: 700;
+    margin-bottom:10px;
+    margin-left:43%;
+}
+.spring{
+    margin-left:40%;
+}
+.history{
+    margin-left:15%;
+}
+.text1{
+    margin-left:31%;
+    font-size:20px;
+    font-family: 'BBTreeGL'; 
+}
+.tag{
+    font-weight: 900;
+    color:burlywood;
+    font-size:50px;
+    display:inline-block;
+}
+.a,.b,.c,.d{
+    width:400px;
+    height:280px;
+    margin-left:10%;
+    border-radius: 10px;
+}
+.fl, .sl, .tl{
+    display:inline-block;
+    position: absolute;
+}
+.fl{
+    left:8%;
+}
+.sl{
+    left:36%;
+}
+.tl{
+    left:64%;
+}
+.tag1{
+    font-weight: 900;
+    color:#990000;
+    font-size:30px;
+    display:inline-block;
+}
+.tag2{
+    font-weight: 900;
+    color:yellow;
+    font-size:30px;
+    display:inline-block;
+}
+.tag3{
+    font-weight: 900;
+    color: sienna;
+    font-size:30px;
+    display:inline-block;
+}

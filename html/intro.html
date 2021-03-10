@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/intro.css">
+    <script type="text/javascript" src="../js/intro.js"></script>
+    <title>About Korea</title>
+</head>
+<body>
+    <div class="container">
+        <div class="t">
+            <div class="title1"><a href="index.html">대한</a></div><div class="title2"><a href="index.html">민국</a></div>
+        </div>
+        <div class="a">
+            <img src="../image/introkorea.png">
+            <h2>대한민국</h2>
+            <h4>Republic of Korea</h4>
+        </div>
+        <div class="b">
+            <figure class="capital">
+                <div class="capitaltitle">수도</div>
+                <div class="capitaltext">서울</div>
+            </figure>
+            <figure class="song">
+                <div class="songtitle">국가</div>
+                <div class="songtext">애국가</div>
+            </figure>
+            <figure class="language">
+                <div class="languagetitle">언어</div>
+                <div class="languageex">안녕하세요 !</div>
+                <div class="languagetext">한국어</div>
+            </figure>
+            <figure class="area">
+                <div class="areatitle">면적</div>
+                <div class="areatext">1,002만 &nbsp;&nbsp;&nbsp;9,535.08㏊ <br></div><div class="areaex">세계107위</div>
+            </figure>
+        </div>
+        <div class="c">
+            <figure class="people">
+                <div class="peopletitle">인구</div>
+                <div class="peopletext">5,181만 &nbsp;&nbsp;&nbsp;1,167명</div>
+            </figure>
+            <figure class="gdp">
+                <div class="gdptitle">GDP</div>
+                <div class="gdptext">1조 5,302억 &nbsp;&nbsp;&nbsp;&nbsp;달러 </div><div class="gdpex">세계12위</div>
+            </figure>
+            <figure class="onegdp">
+                <div class="onegdptitle">1인당 GDP</div>
+                <div class="onegdptext">2만 9,743.5<br>&nbsp;&nbsp;&nbsp;&nbsp;달러 </div><div class="onegdpex">세계26위</div>
+            </figure>
+            <figure class="volt">
+                <div class="volttitle">전압</div>
+                <div class="volttext">220V, 60Hz를 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용</div><div class="voltex"></div>
+            </figure>
+        </div>
+        <div class="video" align="center">
+            <span class="text">&nbsp;애국가에 담긴 대한민국&nbsp;</span>
+            <br>
+            <button onclick="playPause()" class="set">실행/중지</button> 
+            <button onclick="makeBig()" class="big">큰 화면</button> 
+            <button onclick="makeSmall()" class="small">작은 화면</button> 
+            <button onclick="makeNormal()" class="base">기존 화면</button> 
+            <br>
+            <br>
+            <video id="video1" width="500">
+                <source src="../video/koreasong.mp4" type="video/mp4">
+                <source src="../video/koreasong.mp4" type="video/ogg">
+            </video>
+        </div>
+    </div>
+</body>
+</html>

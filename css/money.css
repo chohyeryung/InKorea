@@ -1,0 +1,125 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+@font-face { 
+    font-family: 'EBSHunminjeongeumSBA'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+body{
+    background-image: url('../image/donb2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    display: inline-block;
+    color:black;
+    font-family: 'Song Myung', serif;
+}
+.how1, .how2{
+    font-family: 'Song Myung', serif;
+}
+.how1{
+    font-size:25px;
+    border-bottom:2px dashed black;
+}
+.how2{
+    font-size:20px;
+}
+#tag{
+    margin-top:50px;
+    background-color:white;
+    opacity: 0.8;
+    font-weight: 800;
+    border-radius: 30px;
+    padding:20px;
+}
+.start{
+    height:80px;
+    width:150px;
+    font-size:25px;
+    margin-top:15%;
+    background-color : darkkhaki;
+    font-family: 'EBSHunminjeongeumSBA';
+    border-radius: 20px;
+}
+img{
+    width:300px;
+    height:300px;
+}
+.a{
+    margin-bottom:20px;
+}
+tr>input{
+    text-align:center;
+    padding:20px;
+}
+#coinform{
+    margin-top:8%;
+}
+.selecbutton{
+    background-color : white;
+    border:2px solid #4CAF50;
+    padding:20px;
+    width:300px;
+    font-size:20px;
+    font-weight: 700;
+    color:black;
+    font-family: "굴림";
+}
+.selecbutton:hover{
+    background-color : #4CAF50;
+    border:none;
+    color:white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#cointext{
+    width:280px;
+    height:50px;
+    margin-left:10px;
+    border:1px solid black;
+    font-size:18px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Verdana';
+}
+.inputbutton{
+    background-color : white;
+    border:2px solid #008CBA;
+    width:60px;
+    height:40px;
+    border-radius: 20%;
+    font-family: Verdana;
+    font-size:15px;
+    font-weight: 700;
+    color:black;
+}
+.inputbutton:hover{
+    background-color : #008CBA;
+    border:none;
+    color:white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.start:hover{
+    height:80px;
+    width:150px;
+    font-size:25px;
+    background-color : darkkhaki;
+    font-family:'EBSHunminjeongeumSBA';
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.gomoney{
+    left:90%;
+    width:60px;
+    height:30px;
+    position: absolute;
+    top: 80%;
+    color:black;
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+}

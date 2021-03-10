@@ -1,0 +1,51 @@
+.first{
+    margin-left:800px;
+    margin-top:150px;
+    position: relative;
+}
+img{
+    width:400px;
+    height:400px;
+}
+@font-face { 
+    font-family: 'EBSHunminjeongeumSBA'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+.t{
+    margin-top:20px;
+    position: absolute;
+    right:100px;
+    bottom:-250px;
+}
+.title1{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:30px;
+    color:rgba(235, 12, 12, 0.911);
+    font-weight: 800;
+    display:inline-block;
+}
+.title2{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:30px;
+    color:rgb(6, 42, 202);
+    display:inline-block;
+    font-weight: 800;
+}
+.title1>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:30px;
+    color:rgba(235, 12, 12, 0.911);
+    display:inline-block;
+    font-weight: 800;
+    text-decoration: none;
+}
+.title2>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:30px;
+    color:rgb(6, 42, 202);
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 800;
+}

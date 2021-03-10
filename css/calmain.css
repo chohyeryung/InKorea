@@ -1,0 +1,101 @@
+html, body, .container{
+    width:100%;
+    margin:0;
+}
+@font-face { 
+    font-family: 'EBSHunminjeongeumSBA'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+@font-face { 
+    font-family: 'BMEULJIRO';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') 
+     format('woff'); 
+     font-weight: normal; 
+     font-style: normal; 
+}
+@font-face { 
+    font-family: '국립박물관문화재단클래식B'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'HealthsetBambooStd'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HealthsetBambooStd.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+.t{
+    text-align:center;
+    margin-top:20px;
+}
+.title1{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgba(235, 12, 12, 0.911);
+    display:inline-block;
+    font-weight: 800;
+}
+.title2{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgb(6, 42, 202);
+    display:inline-block;
+    font-weight: 800;
+}
+.title1>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgba(235, 12, 12, 0.911);
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 800;
+}
+.title2>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgb(6, 42, 202);
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 800;
+}
+img{
+    width:650px;
+    height:60px;
+    display:inline-block;
+    position: absolute;
+    top:15%;
+    left:34.5%;
+    z-index: 2;
+}
+table{
+    display:inline-block;
+    margin-top:60px;
+    background-color:rgb(250, 247, 224);
+    border:1px solid black;
+}
+.happy{
+    font-family: 'HealthsetBambooStd';
+    font-size:50px;
+    color:yellow;
+    text-shadow:-2px 0 orange,0 2px orange,2px 0 orange,0 -2px orange;
+}
+.year{
+    font-family: 'BMEULJIRO';
+    font-size:28px;
+    padding:0px;
+}
+td{
+    text-align: center;
+    font-size: 20px;
+    padding-top:50px;
+    font-family: 'BMEULJIRO';
+}
+td>span{
+    cursor: pointer;
+}
+.last>td{
+    padding-bottom:50px;
+}

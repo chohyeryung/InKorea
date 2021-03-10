@@ -1,0 +1,39 @@
+@font-face { 
+    font-family: 'EBSHunminjeongeumSBA'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+.title{
+    display:inline-block;
+    position: absolute;
+    top:3.3%;
+    left:43.8%;   
+    font-size:40px; 
+    font-weight: 700;
+    font-family: 'EBSHunminjeongeumSBA'; 
+}
+.o{
+    width:50px;
+    height:50px;
+    margin-right:140px;
+    margin-top:20px;
+}
+.t{
+    width:50px;
+    height:50px;
+    margin-left:140px;
+    margin-top:20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+img{
+    width:150px;
+    height:150px;
+    margin:50px;
+}
+img:hover{
+    cursor: pointer;
+}

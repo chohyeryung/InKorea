@@ -1,0 +1,73 @@
+@font-face { 
+    font-family: 'EBSHunminjeongeumSBA'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+body{
+    background-image:url('../image/Taegeukgi2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    display:inline-block;
+}
+.second{
+    margin-left:35%;
+}
+.text{
+    height:40px;
+    margin-top:300px;
+    font-size:20px;
+    font-weight: 700;
+}
+img{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin:10px;
+}
+table{
+    margin-top:2%;
+    padding:20px;
+    font-size:25px;
+}
+td{
+    padding:20px;
+    border:2px solid tomato;
+}
+.start{
+    margin-left:46.5%;
+    height:80px;
+    width:150px;
+    margin-top:15%;
+    font-size:25px;
+    background-color : darkkhaki;
+    font-family: 'EBSHunminjeongeumSBA';
+}
+.start:hover{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.button{
+    margin-left:50px;
+    font-size:20px;
+    font-family: 'EBSHunminjeongeumSBA';
+    border-radius: 30px;
+    background-color:blue;
+    color:red;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.goquiz{
+    left:90%;
+    width:60px;
+    height:30px;
+    position: absolute;
+    top: 80%;
+    color:black;
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+}

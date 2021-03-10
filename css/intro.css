@@ -1,0 +1,279 @@
+html, body, .container{
+    width:100%;
+    margin:0;
+    height:100%;
+}
+@font-face { 
+    font-family: 'EBSHunminjeongeumSBA'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+.t{
+    text-align:center;
+    margin-top:20px;
+}
+.title1{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgba(235, 12, 12, 0.911);
+    display:inline-block;
+    font-weight: 800;
+}
+.title2{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgb(6, 42, 202);
+    display:inline-block;
+    font-weight: 800;
+}
+.title1>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgba(235, 12, 12, 0.911);
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 800;
+}
+.title2>a{
+    font-family:'EBSHunminjeongeumSBA';
+    font-size:55px;
+    color:rgb(6, 42, 202);
+    display:inline-block;
+    font-weight: 800;
+    text-decoration: none;
+}
+.kor{
+    margin:auto;
+    width:300px;
+    margin-top:50px;
+}
+img{
+    width:150px;
+    margin-top:50px;
+}
+.a{
+    width:500px;
+    margin:auto;
+    text-align: center;
+}
+h4{
+    color:gray;
+}
+.b, .c{
+    display:flex;
+    justify-content: space-around;
+    height:40%;
+}
+.b{
+    margin-top:50px;
+    margin-bottom:150px;
+}
+.c{
+    margin-bottom:120px;
+}
+.capital, .song, .language, .area{
+    background-color:rgb(143, 0, 0);
+    width:17%;
+    height:100%;
+    position: relative;
+    border-radius: 20px;
+}
+.capitaltitle, .songtitle, .languagetitle, .areatitle, .peopletitle, .gdptitle, .onegdptitle, .volttitle{
+    position: absolute;
+    right:8%;
+    top:8%;
+    font-size:35px;
+    font-weight: 900;
+}
+.capitaltext, .songtext, .languagetext{
+    position: absolute;
+    top:70%;
+    left:37%;
+    font-size:35px;
+    font-weight: 900;
+}
+.areatext{
+    position: absolute;
+    top:70%;
+    left:20%;
+    font-size:35px;
+    font-weight: 900;
+}
+.capital:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.song:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.language:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.area:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.people:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.gdp:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.onegdp:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.volt:hover{
+    color:rgb(212, 212, 212);
+    transition: all ease 1.0s 0s;
+}
+.language>.languageex{
+    position: absolute;
+    left:30%;
+    top:45%;
+    opacity: 0;
+}
+figure.language:hover .languageex,
+figure.language.hover .languageex {
+  opacity: 1;
+  color:black;
+  font-size:25px;
+  font-weight: 700;
+  transition: all ease 1.0s 0s;
+}
+.area>.areaex{
+    position: absolute;
+    left:30%;
+    top:45%;
+    opacity: 0;
+}
+figure.area:hover .areaex,
+figure.area.hover .areaex {
+  opacity: 1;
+  color:black;
+  font-size:25px;
+  font-weight: 700;
+  transition: all ease 1.0s 0s;
+}
+.people, .gdp, .onegdp, .volt{
+    background-color:rgb(6, 18, 134);
+    width:17%;
+    height:100%;
+    position: relative;
+    border-radius: 20px;
+}
+.peopletext{
+    position: absolute;
+    top:70%;
+    left:25%;
+    font-size:35px;
+    font-weight: 900;
+}
+.volttext{
+    position: absolute;
+    top:70%;
+    left:17%;
+    font-size:35px;
+    font-weight: 900;
+}
+.gdptext, .onegdptext{
+    position: absolute;
+    top:70%;
+    left:24%;
+    font-size:35px;
+    font-weight: 900;
+}
+.gdp>.gdpex{
+    position: absolute;
+    left:32%;
+    top:45%;
+    opacity: 0;
+}
+figure.gdp:hover .gdpex,
+figure.gdp.hover .gdpex {
+  opacity: 1;
+  color:black;
+  font-size:25px;
+  font-weight: 700;
+  transition: all ease 1.0s 0s;
+}
+.onegdp>.onegdpex{
+    position: absolute;
+    left:32%;
+    top:45%;
+    opacity: 0;
+}
+figure.onegdp:hover .onegdpex,
+figure.onegdp.hover .onegdpex {
+  opacity: 1;
+  color:black;
+  font-size:25px;
+  font-weight: 700;
+  transition: all ease 1.0s 0s;
+}
+.video{
+    width:60%;
+    margin:auto;
+    border:3px solid black;
+    border-radius: 30px;
+    margin-bottom:40px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    left:36%;
+    bottom:97%;
+    font-size:28px;
+    font-weight: bold;
+    background-color:white;
+}
+#video1{
+    margin-bottom:80px;
+    margin-top:10px;
+}
+button{
+    width:200px;
+    height:80px;
+    margin:15px;
+    background-color:white;
+    font-size:25px;
+    font-weight: 800;
+    margin-top:50px;
+}
+.set{
+    border:2px solid tomato;
+}
+.big{
+    border:2px solid cadetblue;
+}
+.small{
+    border:2px solid green;
+}
+.base{
+    border:2px solid black;
+}
+.set:hover{
+    color:white;
+    background-color: tomato;
+    cursor: pointer;
+}
+.big:hover{
+    color:white;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.small:hover{
+    color:white;
+    background-color: green;
+    cursor: pointer;
+}
+.base:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
