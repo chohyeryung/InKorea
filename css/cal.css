@@ -216,7 +216,7 @@ td{
     width:800px;
     height:300px;
     position: absolute;
-    top:39%;
+    top:39.5%;
     text-align:center;
     background-color:rgba(231, 230, 229, 0.685);
     color:black;
@@ -228,7 +228,7 @@ td{
 }
 img{
     position: absolute;
-    left: 1420px;
+    left: 1350px;
     top:130px;
     width:220px;
     height:220px;

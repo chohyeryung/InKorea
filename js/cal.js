@@ -15,7 +15,7 @@ function cal(num){
     if(num==208){
         textarea="<br><br><br><br>음력 정월보름날을 말하며 개인적인 기복 행사인 부럼깨물기, <br>더위팔기, 귀밝이술 마시기나 집단의 이익을 위한 줄다리기, <br>다리밟기, 고싸움, 돌싸움, 쥐불놀이 등 행사를 하는 명절이다. ";
         document.img.src="../image/moon1.png";
-        document.img.style.left="1425px";
+        document.img.style.left="1350px";
         document.img.style.top="155px";
         document.img.style.width="200px";
         document.img.style.height="200px";
@@ -47,7 +47,7 @@ function cal(num){
         document.img.style.width="200px";
         document.img.style.height="200px";
         document.img.style.top="145px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
     }
     if(num==405){
         textarea="<br><br><br><br><br>나무 심기를 통해 쾌적한 생활환경을 조성하고 <br>산림자원 육성을 촉진하기 위해 제정된 날이다. ";
@@ -90,7 +90,7 @@ function cal(num){
     if(num==505){
         textarea="<br><br><br><br><br>어린이들이 올바르고 슬기로우며 씩씩하게 자라도록 하고 <br>어린이에 대한 애호사상을 앙양하기 위해 제정한 법정기념일이다.";
         document.img.src="../image/girl.png";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.width="200px";
         document.img.style.height="200px";
         document.img.style.top="150px";
@@ -101,12 +101,12 @@ function cal(num){
         document.img.style.width="200px";
         document.img.style.height="200px";
         document.img.style.top="150px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
     }
     if(num==515){
         textarea="<br><br><br><br><br>교권존중과 스승공경의 사회적 풍토를 조성하여 <br>교원의 사기진작과 사회적 지위향상을 위하여 지정된 법정기념일이다.";
         document.img.src="../image/teacher.png";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.width="200px";
         document.img.style.height="200px";
         document.img.style.top="150px";
@@ -117,7 +117,7 @@ function cal(num){
         document.img.style.width="180px";
         document.img.style.height="180px";
         document.img.style.top="160px";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";;
     }
     if(num==531){
         textarea="<br><br><br><br><br>바다 관련 산업의 중요성과 의의를 높이고 국민의 해양사상을 고취하며, <br>관계 종사원들의 노고를 위로할 목적으로 제정한 법정기념일이다.";
@@ -129,7 +129,7 @@ function cal(num){
     if(num==606){
         textarea="<br><br><br><br>국토방위에 목숨을 바친 이의 충성을 기념하기 위한 법정공휴일이다. <br>6월 6일이며, 공휴일로 지정되어 있다. <br>호국영령의 명복을 빌고 순국선열 및 전몰장병의 <br>숭고한 호국정신과 위훈을 추모하는 행사를 하며 조기 게양을 한다.";
         document.img.src="../image/flower.png";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";
         document.img.style.width="200px";
         document.img.style.height="200px";
         document.img.style.top="150px";
@@ -139,7 +139,7 @@ function cal(num){
         document.img.src="../image/minju.png";
         document.img.style.width="200px";
         document.img.style.height="190px";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";
         document.img.style.top="150px";
     }
     if(num==625){
@@ -155,7 +155,7 @@ function cal(num){
         document.img.style.width="200px";
         document.img.style.height="190px";
         document.img.style.top="150px";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";
     }
     if(num==710){
         textarea="<br><br><br><br><br>정부 부처에서 공동으로 사이버 공격을 예방하고 국민들의 <br>정보보호를 생활화하기 위해 2012년 제정한 법정기념일이다.";
@@ -163,7 +163,7 @@ function cal(num){
         document.img.style.width="190px";
         document.img.style.height="190px";
         document.img.style.top="150px";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";
     }
     if(num==717){
         textarea="<br><br><br><br><br>1948년 7월 17일 대한민국 헌법 공포를 기념하는 국경일이다.";
@@ -171,7 +171,7 @@ function cal(num){
         document.img.style.width="180px";
         document.img.style.height="180px";
         document.img.style.top="160px";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";
     }
     if(num==815){
         textarea="<br><br><br><br><br>1945년 우리나라가 일본으로부터 해방된 것을 기념하고, <br>임시정부 법통을 계승한 대한민국 정부수립을 축하하는 날이다.";
@@ -179,7 +179,7 @@ function cal(num){
         document.img.style.width="180px";
         document.img.style.height="180px";
         document.img.style.top="170px";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";
     }
     if(num==101){
         textarea="<br><br><br><br><br>음력 팔월 보름을 일컫는 말로 가을의 한가운데 달이며 <br>또한 팔월의 한가운데 날이라는 뜻을 지니고 있는 연중 으뜸인 명절이다. ";
@@ -190,14 +190,14 @@ function cal(num){
         document.img.src="../image/gechun.png";
         document.img.style.width="490px";
         document.img.style.height="250px";
-        document.img.style.left="1300px";
+        document.img.style.left="1350px";
     }
     if(num==105){
         textarea="<br><br><br><br>재외동포의 거주국 내 권익 신장과 역량을 강화하고<br> 한민족으로서의 정체성 및 자긍심을 고양하며, <br>동포 간 화합 및 모국과 동포사회 간 호혜적 발전을 도모하기 위한 날이다.";
         document.img.src="../image/worldwide.png";
         document.img.style.width="200px";
         document.img.style.height="200px";
-        document.img.style.left="1440px";
+        document.img.style.left="1350px";
         document.img.style.top="155px";
     }
     if(num==109){
@@ -209,7 +209,7 @@ function cal(num){
         document.img.src="../image/police.png";
         document.img.style.width="200px";
         document.img.style.height="200px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="160px";
     }
     if(num==1025){
@@ -217,14 +217,14 @@ function cal(num){
         document.img.src="../image/island.png";
         document.img.style.width="200px";
         document.img.style.height="200px";
-        document.img.style.left="1450px";
+        document.img.style.left="1350px";
         document.img.style.top="160px";
     }
     if(num==1103){
         textarea="<br><br><br><br><br>학생들이 일제식민지정책에 항거한 날을 <br>기념하여 제정한 법정기념일이다.";
         document.img.src="../image/31jul2.png";
         document.img.style.height="200px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="180px";
     }
     if(num==1109){
@@ -232,7 +232,7 @@ function cal(num){
         document.img.src="../image/firefighter.png";
         document.img.style.width="200px";
         document.img.style.height="200px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="150px";
     }
     if(num==1111){
@@ -240,7 +240,7 @@ function cal(num){
         document.img.src="../image/farmer.png";
         document.img.style.width="190px";
         document.img.style.height="190px";
-        document.img.style.left="1435px";
+        document.img.style.left="1350px";
         document.img.style.top="155px";
     }
     if(num==1117){
@@ -248,7 +248,7 @@ function cal(num){
         document.img.src="../image/flower.png";
         document.img.style.width="200px";
         document.img.style.height="200px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="150px";
     }
     if(num==1203){
@@ -256,7 +256,7 @@ function cal(num){
         document.img.src="../image/consum.png";
         document.img.style.width="200px";
         document.img.style.height="190px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="150px";
     }
     if(num==1205){
@@ -264,7 +264,7 @@ function cal(num){
         document.img.src="../image/ship.png";
         document.img.style.width="200px";
         document.img.style.height="200px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="155px";
     }
     if(num==1221){
@@ -272,7 +272,7 @@ function cal(num){
         document.img.src="../image/redbeansoup.png";
         document.img.style.width="190px";
         document.img.style.height="190px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="155px";
     }
     if(num==1225){
@@ -280,7 +280,7 @@ function cal(num){
         document.img.src="../image/christmas2.png";
         document.img.style.width="200px";
         document.img.style.height="190px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="155px";
     }
     if(num==1227){
@@ -288,7 +288,7 @@ function cal(num){
         document.img.src="../image/nuclear.png";
         document.img.style.width="190px";
         document.img.style.height="190px";
-        document.img.style.left="1430px";
+        document.img.style.left="1350px";
         document.img.style.top="150px";
     }
     document.getElementById("textarea").innerHTML=textarea;
@@ -298,6 +298,6 @@ function reset(){
     document.img.src="../image/south-korea.png";
     document.img.style.width="220px";
     document.img.style.height="220px";
-    document.img.style.left="1420px";
+    document.img.style.left="1350px";
     document.img.style.top="130px";
 }
